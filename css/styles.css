@@ -134,9 +134,11 @@ span {
   background-size: cover;
 }
 .container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
+  max-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .divnav {
@@ -198,11 +200,13 @@ span {
 }
 .titlesecond {
   display: flex;
-  gap: 24px;
+  /* gap: 24px; */
+  gap: 72px;
   list-style-type: none;
+  flex-wrap: wrap;
 }
 .firstelement {
-  width: calc((100% - 72px) / 4);
+  width: 100%;
 }
 .icons {
   display: flex;
@@ -225,6 +229,11 @@ span {
 .par {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
+  width: 288px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
 }
 .thirdsection {
   background-color: #f4f4fd;
@@ -700,4 +709,44 @@ img {
 
 .send_button:focus {
   background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    min-width: 768px;
+  }
+  .firstelement {
+    width: calc((100% - 24px) / 2);
+    flex-direction: column;
+    display: flex;
+    gap: 8px;
+    list-style-type: none;
+    flex-wrap: wrap;
+  }
+  .titlesecond {
+    display: flex;
+    gap: 8px;
+    list-style-type: none;
+    flex-wrap: wrap;
+  }
+  .icons {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
