@@ -961,7 +961,6 @@ img {
   background-color: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
   /* height: 56px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -974,7 +973,6 @@ img {
 .send_button:focus {
   background-color: #404bbf;
 }
-
 
 @media screen and (min-width: 288px) {
   .container {
