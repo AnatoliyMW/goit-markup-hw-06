@@ -1048,6 +1048,10 @@ img {
     height: 72px;
     left: 50%;
     transform: translateX(-50%);
+    z-index:auto;
+  }
+  .mob-menu{
+    display: none;
   }
   .webstudio-head {
     padding: 24px 0;
