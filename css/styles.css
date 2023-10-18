@@ -116,6 +116,7 @@ p {
 .mob-social_media {
   display: flex;
   gap: 40px;
+  list-style: none;
 }
 .mob-social {
   width: 40px;
@@ -168,6 +169,7 @@ p {
   margin-bottom: 48px;
   margin-left: 16px;
   margin-top: 168px;
+  list-style: none;
 }
 
 .mob-mail {
