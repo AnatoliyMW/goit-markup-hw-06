@@ -62,71 +62,66 @@
       </div>
       <div class="mob-menu">
         <div>
-        <button type="button" class="menu-close-btn">
-          <svg class="mob-close-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-close-black-18dp-2-1-1"></use>
-          </svg>
-        </button>
-        <ul class="menu mob-menu-list">
-          <li class="mob-menu-item">
-            <a class="mob-studio mob-studio-link" href="./index.html">Studio</a>
+          <button type="button" class="menu-close-btn">
+            <svg class="mob-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black-18dp-2-1-1"></use>
+            </svg>
+          </button>
+          <ul class="menu mob-menu-list">
+            <li class="mob-menu-item">
+              <a class="mob-studio mob-studio-link" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-studio" href="">Portfolio</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-studio" href="">Contacts</a>
+            </li>
+          </ul>
+
+          <address class="mob-adress">
+            <ul class="mob-mailtel">
+              <li>
+                <a class="mob-mail mob-contact" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mob-mailtel-list">
+                <a class="mob-mail" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <ul class="mob-social_media">
+          <li class="mob-social">
+            <a class="mob-a_social" href=""
+              ><svg class="svg_social-mob" width="16" height="16">
+                <use href="./images/icons.svg#icon-instagram-2"></use></svg
+            ></a>
           </li>
-          <li class="mob-menu-item">
-            <a class="mob-studio" href="">Portfolio</a>
+          <li class="mob-social">
+            <a class="mob-a_social" href=""
+              ><svg class="svg_social-mob" width="16" height="16">
+                <use href="./images/icons.svg#icon-twitter-1"></use></svg
+            ></a>
           </li>
-          <li class="mob-menu-item">
-            <a class="mob-studio" href="">Contacts</a>
+          <li class="mob-social">
+            <a class="mob-a_social" href=""
+              ><svg class="svg_social-mob" width="16" height="16">
+                <use href="./images/icons.svg#icon-facebook-1"></use></svg
+            ></a>
+          </li>
+          <li class="mob-social">
+            <a class="mob-a_social" href=""
+              ><svg class="svg_social-mob" width="16" height="16">
+                <use href="./images/icons.svg#icon-linkedin-1"></use></svg
+            ></a>
           </li>
         </ul>
-      </nav>
-      <address class="mob-adress">
-        <ul class="mob-mailtel">
-          <li>
-            <a class="mob-mail mob-contact" href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </li>
-          <li class="mob-mailtel-list">
-            <a class="mob-mail" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          
-        </ul>
-      </address>
-    </div>
-      <ul class="mob-social_media">
-        <li class="mob-social">
-          <a class="mob-a_social" href=""
-            ><svg class="svg_social-mob" width="16" height="16">
-              <use
-                href="./images/icons.svg#icon-instagram-2"
-              ></use></svg
-          ></a>
-        </li>
-        <li class="mob-social">
-          <a class="mob-a_social" href=""
-            ><svg class="svg_social-mob" width="16" height="16">
-              <use
-                href="./images/icons.svg#icon-twitter-1"
-              ></use></svg
-          ></a>
-        </li>
-        <li class="mob-social">
-          <a class="mob-a_social" href=""
-            ><svg class="svg_social-mob" width="16" height="16">
-              <use
-                href="./images/icons.svg#icon-facebook-1"
-              ></use></svg
-          ></a>
-        </li>
-        <li class="mob-social">
-          <a class="mob-a_social" href=""
-            ><svg class="svg_social-mob" width="16" height="16">
-              <use
-                href="./images/icons.svg#icon-linkedin-1"
-              ></use></svg
-          ></a>
-        </li>
-      </ul>
       </div>
     </header>
     <main>
@@ -198,14 +193,15 @@
       </section>
       <section class="thirdsection">
         <!-- Light bg -->
-        <div class="container" class="container-team">
+        <div class="container cont-team">
           <h2 class="ourteam">Our Team</h2>
           <ul class="team">
             <li class="mark">
               <img
                 src="./images/MarkGuerrero.jpg"
                 alt="photo-Mark Guerrero"
-                width="264"/>
+                width="264"
+              />
               <div class="name">
                 <h3 class="strategy-third">Mark Guerrero</h3>
                 <p class="par-third">Product Designer</p>
@@ -393,12 +389,24 @@
             <li class="bankingapp">
               <div class="image-forth">
                 <picture>
-                  <source srcset="./images/Bankingapp.jpg" 1x,
-                  Bankingapp-2x.jpg" 2x media="min-width: 1158px"> <source
-                  srcset="./images/Bankingapp-tab.jpg" 1x,
-                  Bankingapp-tab-2x.jpg" 2x media="min-width: 768px"> <source
-                  srcset="./images/Bankingapp-mob.jpg" 1x,
-                  Bankingapp-mob-2x.jpg" 2x media="max-width: 767px">
+                  <source
+                    srcset="./images/Bankingapp.jpg 1x, Bankingapp-2x.jpg 2x"
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/Bankingapp-tab.jpg 1x,
+                      Bankingapp-tab-2x.jpg       2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/Bankingapp-mob.jpg 1x,
+                      Bankingapp-mob-2x.jpg       2x
+                    "
+                    media="(max-width: 767px)"
+                  />
                   <img
                     src="./images/Bankingapp.jpg"
                     alt="BankingApp"
@@ -421,12 +429,27 @@
             <li class="bankingapp">
               <div class="image-forth">
                 <picture>
-                  <source srcset="./images/Cashlesspayment.jpg" 1x,
-                  Cashlesspayment-2x.jpg" 2x media="min-width: 1158px"> <source
-                  srcset="./images/Cashlesspayment-tab.jpg" 1x,
-                  Cashlesspayment-tab-2x.jpg" 2x media="min-width: 768px">
-                  <source srcset="./images/Cashlesspayment-mob.jpg" 1x,
-                  Cashlesspayment-mob-2x.jpg" 2x media="max-width: 767px">
+                  <source
+                    srcset="
+                      ./images/Cashlesspayment.jpg 1x,
+                      Cashlesspayment-2x.jpg       2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/Cashlesspayment-tab.jpg 1x,
+                      Cashlesspayment-tab-2x.jpg       2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/Cashlesspayment-mob.jpg 1x,
+                      Cashlesspayment-mob-2x.jpg       2x
+                    "
+                    media="(max-width: 767px)"
+                  />
                   <img
                     src="./images/Cashlesspayment.jpg"
                     alt="CashlessPayment"
@@ -449,12 +472,27 @@
             <li class="bankingapp">
               <div class="image-forth">
                 <picture>
-                  <source srcset="./images/Meditationapp.jpg" 1x,
-                  Meditationapp-2x.jpg" 2x media="min-width: 1158px"> <source
-                  srcset="./images/Meditationapp-tab.jpg" 1x,
-                  Meditationapp-tab-2x.jpg" 2x media="min-width: 768px"> <source
-                  srcset="./images/Meditationapp-mob.jpg" 1x,
-                  Meditationapp-mob-2x.jpg" 2x media="max-width: 767px">
+                  <source
+                    srcset="
+                      ./images/Meditationapp.jpg 1x,
+                      Meditationapp-2x.jpg       2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/Meditationapp-tab.jpg 1x,
+                      Meditationapp-tab-2x.jpg       2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/Meditationapp-mob.jpg 1x,
+                      Meditationapp-mob-2x.jpg       2x
+                    "
+                    media="(max-width: 767px)"
+                  />
                   <img
                     src="./images/Meditationapp.jpg"
                     alt="MeditationApp"
@@ -477,12 +515,24 @@
             <li class="bankingapp">
               <div class="image-forth">
                 <picture>
-                  <source srcset="./images/Taxiservice.jpg" 1x,
-                  Taxiservice-2x.jpg" 2x media="min-width: 1158px"> <source
-                  srcset="./images/Taxiservice-tab.jpg" 1x,
-                  Taxiservice-tab-2x.jpg" 2x media="min-width: 768px"> <source
-                  srcset="./images/Taxiservice-mob.jpg" 1x,
-                  Taxiservice-mob-2x.jpg" 2x media="max-width: 767px">
+                  <source
+                    srcset="./images/Taxiservice.jpg 1x, Taxiservice-2x.jpg 2x"
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/Taxiservice-tab.jpg 1x,
+                      Taxiservice-tab-2x.jpg       2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/Taxiservice-mob.jpg 1x,
+                      Taxiservice-mob-2x.jpg       2x
+                    "
+                    media="(max-width: 767px)"
+                  />
                   <img
                     src="./images/Taxiservice.jpg"
                     alt="TaxiService"
@@ -505,12 +555,27 @@
             <li class="bankingapp">
               <div class="image-forth">
                 <picture>
-                  <source srcset="./images/Screenillustrations.jpg" 1x,
-                  Screenillustrations-2x.jpg" 2x media="min-width: 1158px">
-                  <source srcset="./images/Screenillustrations-tab.jpg" 1x,
-                  Screenillustrations-tab-2x.jpg" 2x media="min-width: 768px">
-                  <source srcset="./images/Screenillustrations-mob.jpg" 1x,
-                  Screenillustrations-mob-2x.jpg" 2x media="max-width: 767px">
+                  <source
+                    srcset="
+                      ./images/Screenillustrations.jpg 1x,
+                      Screenillustrations-2x.jpg       2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/Screenillustrations-tab.jpg 1x,
+                      Screenillustrations-tab-2x.jpg       2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/Screenillustrations-mob.jpg 1x,
+                      Screenillustrations-mob-2x.jpg       2x
+                    "
+                    media="(max-width: 767px)"
+                  />
                   <img
                     src="./images/Screenillustrations.jpg"
                     alt="ScreenIllustrations"
@@ -533,12 +598,27 @@
             <li class="bankingapp">
               <div class="image-forth">
                 <picture>
-                  <source srcset="./images/Onlinecourses.jpg" 1x,
-                  Onlinecourses-2x.jpg" 2x media="min-width: 1158px"> <source
-                  srcset="./images/Onlinecourses-tab.jpg" 1x,
-                  Onlinecourses-tab-2x.jpg" 2x media="min-width: 768px"> <source
-                  srcset="./images/Onlinecourses-mob.jpg" 1x,
-                  Onlinecourses-mob-2x.jpg" 2x media="max-width: 767px">
+                  <source
+                    srcset="
+                      ./images/Onlinecourses.jpg 1x,
+                      Onlinecourses-2x.jpg       2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/Onlinecourses-tab.jpg 1x,
+                      Onlinecourses-tab-2x.jpg       2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/Onlinecourses-mob.jpg 1x,
+                      Onlinecourses-mob-2x.jpg       2x
+                    "
+                    media="(max-width: 767px)"
+                  />
                   <img
                     src="./images/Onlinecourses.jpg"
                     alt="OnlineCourses"
@@ -701,9 +781,11 @@
             <label class="label_check" for="user-privacy">
               <span class="label_span">
                 <svg class="label_svg" width="10" height="8">
-                  <use href="./images/icons.svg#check"></use></svg></span
-              >
-              <div class="checkbox-text"> I accept the terms and conditions of the </div>
+                  <use href="./images/icons.svg#check"></use></svg
+              ></span>
+              <p class="checkbox-text">
+                I accept the terms and conditions of the
+              </p>
               <a class="label_privacy" href="">Privacy Policy</a></label
             >
           </div>
