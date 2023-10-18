@@ -124,6 +124,17 @@ p {
 .mob-menu-item:not(:last-child) {
   margin-bottom: 40px;
 }
+.mob-mailtel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 48px;
+  margin-left: 16px;
+}
+.mob-adress {
+}
+.mob-mailtel-list {
+}
 span {
   color: #2e2f42;
 }
