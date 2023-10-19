@@ -89,6 +89,11 @@ p {
   display: none;
   
 }
+.menu-open-btn{
+  border: none;
+  background: none;
+
+}
 
 .menu-close-btn {
   width: 24px;
