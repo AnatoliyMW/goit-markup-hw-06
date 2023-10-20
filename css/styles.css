@@ -269,14 +269,14 @@ span {
   color: #404bbf;
 } */
 
-/* .adress {
+.adress {
   font-style: normal;
   margin-left: auto;
   align-items: center;
   justify-content: center;
   display: flex;
   display: none;
-} */
+}
 .mailtel {
   display: flex;
   gap: 40px;
@@ -1087,64 +1087,64 @@ img {
     padding: 112px 0;
     margin: 72px auto 0;
   }
-}
 
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .firstsection {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/Dark-bg-tab-2x.jpg);
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .firstsection {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-tab-2x.jpg);
+    }
   }
-}
-.title {
-  font-size: 56px;
-  max-width: 496px;
-  margin: 0 auto 36px;
-}
-.adress {
-  font-style: normal;
-  margin-left: auto;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-.studio {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-decoration: none;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  display: block;
-}
-.studio:hover {
-  color: #404bbf;
-}
-.studio:focus {
-  color: #404bbf;
-}
-.mail {
-  padding-bottom: 12px;
-}
-.mailtel {
-  flex-wrap: wrap;
-  gap: 12px;
-  display: block;
-}
-.menu-open-btn {
-  display: none;
-}
+  .title {
+    font-size: 56px;
+    max-width: 496px;
+    margin: 0 auto 36px;
+  }
+  .adress {
+    font-style: normal;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .studio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
+  }
+  .studio:hover {
+    color: #404bbf;
+  }
+  .studio:focus {
+    color: #404bbf;
+  }
+  .mail {
+    padding-bottom: 12px;
+  }
+  .mailtel {
+    flex-wrap: wrap;
+    gap: 12px;
+    display: block;
+  }
+  .menu-open-btn {
+    display: none;
+  }
 
-.modal {
-  padding: 72px 24px 24px 24px;
-  width: 408px;
-  min-height: 584px;
+  .modal {
+    padding: 72px 24px 24px 24px;
+    width: 408px;
+    min-height: 584px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
