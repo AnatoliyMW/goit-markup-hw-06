@@ -1037,6 +1037,7 @@ img {
     display: flex;
     flex-direction: column;
     text-align: left;
+    margin-left: 80px;
   }
   .webstudio {
     text-align: left;
