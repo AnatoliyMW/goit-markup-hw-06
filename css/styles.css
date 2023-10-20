@@ -269,14 +269,14 @@ span {
   color: #404bbf;
 } */
 
-.adress {
+/* .adress {
   font-style: normal;
-  /* margin-left: auto;
+  margin-left: auto;
   align-items: center;
   justify-content: center;
-  display: flex; */
+  display: flex;
   display: none;
-}
+} */
 .mailtel {
   display: flex;
   gap: 40px;
@@ -1026,7 +1026,7 @@ img {
     /* justify-content: flex-start;
     align-items: baseline;
     column-gap: 24px; */
-    min-width: 552px;
+    /* min-width: 552px; */
     flex-direction: row;
     /* justify-content: left; */
     flex-wrap: wrap;
@@ -1100,7 +1100,6 @@ img {
       url(../images/Dark-bg-tab-2x.jpg);
   }
 }
-
 .title {
   font-size: 56px;
   max-width: 496px;
@@ -1162,7 +1161,6 @@ img {
 }
 @media screen and (min-width: 1158px) {
   .container {
-    /* max-width: 1128px; */
     max-width: 1158px;
     padding: 0 15px;
   }
@@ -1222,6 +1220,7 @@ img {
     flex-wrap: nowrap;
     gap: 0;
   }
+
   .logo_p {
     margin-right: 120px;
   }
@@ -1254,5 +1253,10 @@ img {
   }
   .title {
     margin: 0 auto 48px;
+  }
+  .mailtel {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
   }
 }
