@@ -87,12 +87,10 @@ p {
   flex-direction: column;
   justify-content: space-between;
   display: none;
-  
 }
-.menu-open-btn{
+.menu-open-btn {
   border: none;
   background: none;
-
 }
 
 .menu-close-btn {
@@ -141,9 +139,8 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mob-a_social:hover,
-.mob-a_social:focus{
+.mob-a_social:focus {
   background-color: #404bbf;
-
 }
 .svg_social-mob {
   /* fill: var(--IRIS, #4d5ae5); */
@@ -186,14 +183,12 @@ p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mob-mail:hover,
-.mob-mail:focus{
+.mob-mail:focus {
   color: #404bbf;
-
 }
 .mob-contact {
   color: #404bbf;
 }
-
 
 .mob-button {
   position: absolute;
@@ -223,8 +218,6 @@ p {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mob-adress {
-}
 .mob-mailtel-list:not(:last-child) {
   margin-bottom: 24px;
 }
@@ -336,7 +329,6 @@ span {
   }
 }
 
-
 .container {
   /* width: 1158px; */
   padding: 0 16px;
@@ -432,15 +424,19 @@ span {
   display: none;
 }
 .strategy {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  /* font-weight: 500; */
+  font-weight: 700;
+  /* font-size: 20px; */
+  font-size: 36px;
+  /* line-height: 1.2; */
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
   text-align: center;
 }
 .par {
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -606,7 +602,7 @@ span {
   /* padding-top: 100px;
   padding-bottom: 100px; */
   padding: 96px 0;
-  width: 100%;
+  /* width: 100%; */
 }
 
 ul {
@@ -646,8 +642,6 @@ ul {
   display: block;
   font-style: normal;
   text-align: center;
-  margin-top: 1.5px;
-  margin-bottom: 16px;
 }
 .webstudiop {
   /*width: 264px; */
@@ -776,7 +770,7 @@ img {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    opacity: 0;
+  opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
@@ -785,6 +779,7 @@ img {
   visibility: visible;
   /* pointer-events: auto; */
   pointer-events: all;
+  display: none;
 }
 .modal {
   padding: 72px 24px 24px 24px;
@@ -926,7 +921,7 @@ img {
   display: flex;
   align-items: center;
 }
-.checkbox-text{
+.checkbox-text {
   color: #8e8f99;
   font-size: 12px;
   line-height: 1.17;
@@ -978,7 +973,6 @@ img {
   font-size: 16px;
   align-items: flex-start;
   gap: 10px; */
-  
 }
 
 .send_button:hover,
@@ -1027,13 +1021,22 @@ img {
     flex-wrap: wrap;
     gap: 16px 24px 72px;
   } */
-  .footer {
-    padding-left: 108px;
-  }
+
   .container-footer {
-    justify-content: flex-start;
+    /* justify-content: flex-start;
     align-items: baseline;
-    column-gap: 24px;
+    column-gap: 24px; */
+    min-width: 552px;
+    flex-direction: row;
+    /* justify-content: left; */
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+
+  .form_footer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
   }
   .webstudio {
     text-align: left;
@@ -1042,9 +1045,7 @@ img {
   .webstudiop {
     width: 264px;
   }
-  .container-social {
-    margin-right: 80px;
-  }
+
   .p-footer {
     text-align: left;
   }
@@ -1052,17 +1053,21 @@ img {
     text-align: left;
   }
   .form {
-    flex-wrap: nowrap;
-    justify-content: flex-start;
+    /* flex-wrap: nowrap;
+    justify-content: flex-start; */
+    flex-direction: row;
     gap: 24px;
+  }
+  .logo_p {
+    text-align: left;
   }
   .header {
     height: 72px;
     left: 50%;
     transform: translateX(-50%);
-    z-index:auto;
+    z-index: auto;
   }
-  .mob-menu{
+  .mob-menu {
     display: none;
   }
   .webstudio-head {
@@ -1082,8 +1087,9 @@ img {
     padding: 112px 0;
     margin: 72px auto 0;
   }
+}
 
-  @media (min-device-pixel-ratio: 2),
+@media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .firstsection {
@@ -1094,51 +1100,53 @@ img {
       url(../images/Dark-bg-tab-2x.jpg);
   }
 }
-  
-  .title {
-    font-size: 56px;
-    max-width: 496px;
-    margin: 0 auto 36px;
-  }
-  .adress {
-    font-style: normal;
-    margin-left: auto;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-  }
-  .studio {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-decoration: none;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    display: block;
-  }
-  .studio:hover {
-    color: #404bbf;
-  }
-  .studio:focus {
-    color: #404bbf;
-  }
-  .mailtel {
-    flex-wrap: wrap;
-    gap: 12px;
-    display: block;
-  }
-  .menu-open-btn{
-    display: none;
-  }
 
-  .modal{
-    padding: 72px 24px 24px 24px;
-    width: 408px;
-    min-height: 584px;
-  }
+.title {
+  font-size: 56px;
+  max-width: 496px;
+  margin: 0 auto 36px;
+}
+.adress {
+  font-style: normal;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.studio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: block;
+}
+.studio:hover {
+  color: #404bbf;
+}
+.studio:focus {
+  color: #404bbf;
+}
+.mail {
+  padding-bottom: 12px;
+}
+.mailtel {
+  flex-wrap: wrap;
+  gap: 12px;
+  display: block;
+}
+.menu-open-btn {
+  display: none;
+}
 
+.modal {
+  padding: 72px 24px 24px 24px;
+  width: 408px;
+  min-height: 584px;
+}
 
 @media screen and (min-width: 1158px) {
   .container {
@@ -1234,16 +1242,16 @@ img {
   }
 
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .firstsection {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/people-office-2x.jpg);
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .firstsection {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-2x.jpg);
+    }
   }
-}
   .title {
     margin: 0 auto 48px;
   }
