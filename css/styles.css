@@ -86,7 +86,10 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  display: none;
+  /* display: none; */
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: auto;
 }
 .menu-open-btn {
   border: none;
@@ -774,12 +777,17 @@ img {
   visibility: hidden;
   pointer-events: none;
 }
-.is-open {
+/* .is-open {
   opacity: 1;
   visibility: visible;
-  /* pointer-events: auto; */
   pointer-events: all;
   display: none;
+} */
+
+.backdrop.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
 }
 .modal {
   padding: 72px 24px 24px 24px;
@@ -1037,7 +1045,7 @@ img {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-left: 80px;
+    /* margin-left: 80px; */
   }
   .webstudio {
     text-align: left;
@@ -1067,6 +1075,7 @@ img {
     left: 50%;
     transform: translateX(-50%);
     z-index: auto;
+    position: absolute;
   }
   .mob-menu {
     display: none;
