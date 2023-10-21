@@ -1269,4 +1269,10 @@ img {
     gap: 40px;
     list-style-type: none;
   }
+  .form_footer {
+    /* display: flex;
+    flex-direction: column;
+    text-align: left; */
+    margin-left: 80px;
+  }
 }
